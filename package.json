@@ -1,0 +1,26 @@
+{
+  "name": "react-playground",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bookmark-parser": "^0.1.5",
+    "lodash": "^4.17.10",
+    "normalize.css": "^8.0.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "react-toggle-switch": "^3.0.4",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "uuid": "^3.3.0",
+    "xml-js": "^1.6.11",
+    "xml2json": "^0.11.2"
+  },
+  "scripts": {
+    "start": "NODE_PATH=src/ react-scripts start",
+    "build": "NODE_PATH=src/ react-scripts build",
+    "test": "NODE_PATH=src/ react-scripts test --env=jsdom",
+    "eject": "NODE_PATH=src/ react-scripts eject"
+  }
+}
